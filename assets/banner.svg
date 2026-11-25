@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="880" height="280" role="img" aria-label="SD Forge Presets Banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0b1120"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.24"/>
+      <stop offset="60%" stop-color="#f97316" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <!-- Base -->
+  <rect width="880" height="280" rx="14" fill="url(#bg)"/>
+  <rect width="880" height="280" rx="14" fill="url(#grid)"/>
+  <rect width="880" height="280" rx="14" fill="url(#glow)"/>
+  <rect x="1" y="1" width="878" height="278" rx="13" fill="none" stroke="#334155" stroke-width="1.2"/>
+
+  <!-- Left: Title, Subtitle & Scope Pills -->
+  <g transform="translate(44, 30)">
+    <rect x="0" y="0" width="204" height="28" rx="14" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4.5" fill="#f97316"/>
+    <text x="30" y="18.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.06em" fill="#f8fafc">FORGE NEO EXTENSION</text>
+
+    <text x="0" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="800" letter-spacing="-0.02em" fill="#ffffff">SD Forge Presets</text>
+
+    <text x="2" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#cbd5e1">One-click snapshots for models, VAE/TE,</text>
+    <text x="2" y="131" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#cbd5e1">and generation settings.</text>
+
+    <!-- Scope Pills (2 compact rows inside safe zone) -->
+    <g transform="translate(0, 152)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">
+      <rect x="0" y="0" width="144" height="30" rx="7" fill="#111827" stroke="#f97316" stroke-width="1.2"/>
+      <text x="15" y="19.5" fill="#fed7aa">Checkpoint &amp; VAE</text>
+
+      <rect x="152" y="0" width="104" height="30" rx="7" fill="#111827" stroke="#f97316" stroke-width="1.2"/>
+      <text x="169" y="19.5" fill="#fed7aa">Generation</text>
+
+      <rect x="264" y="0" width="88" height="30" rx="7" fill="#111827" stroke="#f97316" stroke-width="1.2"/>
+      <text x="280" y="19.5" fill="#fed7aa">Hires. fix</text>
+
+      <rect x="0" y="38" width="82" height="30" rx="7" fill="#111827" stroke="#f97316" stroke-width="1.2"/>
+      <text x="19" y="57.5" fill="#fed7aa">Refiner</text>
+
+      <rect x="90" y="38" width="86" height="30" rx="7" fill="#111827" stroke="#475569" stroke-width="1"/>
+      <text x="107" y="57.5" fill="#e2e8f0">Prompts</text>
+
+      <rect x="184" y="38" width="68" height="30" rx="7" fill="#111827" stroke="#475569" stroke-width="1"/>
+      <text x="202" y="57.5" fill="#e2e8f0">Seed</text>
+    </g>
+  </g>
+
+  <!-- Right: Compact Quicksettings Preset Card -->
+  <g transform="translate(508, 34)">
+    <rect x="0" y="0" width="328" height="212" rx="12" fill="#0b1120" fill-opacity="0.94" stroke="#475569" stroke-width="1.2"/>
+
+    <!-- Top Quicksettings Strip -->
+    <rect x="14" y="14" width="300" height="60" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+    <text x="26" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.04em" fill="#94a3b8">PRESET</text>
+    <rect x="26" y="38" width="198" height="26" rx="5" fill="#090d16" stroke="#f97316" stroke-width="1.2"/>
+    <text x="36" y="55.5" font-family="'Cascadia Code', Consolas, monospace" font-size="13.5" font-weight="600" fill="#ffffff">SDXL</text>
+    <path d="M 206 49 L 211 54 L 216 49" fill="none" stroke="#cbd5e1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Save & Delete Buttons -->
+    <rect x="232" y="38" width="32" height="26" rx="5" fill="url(#accent)"/>
+    <rect x="241" y="45" width="14" height="12" rx="2" fill="none" stroke="#090d16" stroke-width="1.6"/>
+    <rect x="244" y="45" width="8" height="5" fill="#090d16"/>
+
+    <rect x="270" y="38" width="32" height="26" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+    <path d="M 280 47 L 292 47 M 282 47 L 283 57 L 289 57 L 290 47 M 284 44.5 L 288 44.5" fill="none" stroke="#e2e8f0" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Snapshot Details -->
+    <g transform="translate(14, 86)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+      <rect x="0" y="0" width="144" height="52" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+      <text x="12" y="19" font-size="11" font-weight="700" fill="#94a3b8">UI PRESET</text>
+      <text x="12" y="40" font-family="'Cascadia Code', Consolas, monospace" font-size="14.5" font-weight="700" fill="#fb923c">xl</text>
+
+      <rect x="156" y="0" width="144" height="52" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+      <text x="168" y="19" font-size="11" font-weight="700" fill="#94a3b8">LOW BITS</text>
+      <text x="168" y="40" font-family="'Cascadia Code', Consolas, monospace" font-size="13.5" font-weight="600" fill="#f1f5f9">fp16 LoRA</text>
+
+      <rect x="0" y="62" width="300" height="50" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+      <text x="12" y="81" font-size="11" font-weight="700" fill="#94a3b8">GENERATION SETTINGS</text>
+      <text x="12" y="101" font-family="'Cascadia Code', Consolas, monospace" font-size="13" font-weight="600" fill="#e2e8f0">DPM++ 2M · 53 steps · CFG 5.5</text>
+    </g>
+  </g>
+</svg>

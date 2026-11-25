@@ -1,0 +1,55 @@
+#sd_forge_presets_dropdown {
+    flex: 1 1 180px;
+    min-width: 140px;
+    max-width: 260px;
+}
+
+#sd_forge_presets_manage,
+#sd_forge_presets_delete {
+    align-self: flex-end;
+    margin-bottom: 0.25em;
+}
+
+#sd_forge_presets_dialog {
+    width: fit-content !important;
+    min-width: min(46rem, 92vw);
+    max-width: 94vw;
+    padding: 1.25em !important;
+    flex-direction: column;
+    gap: 0.85em;
+    border-radius: 0.75em;
+    border: 1px solid var(--border-color-primary);
+}
+
+#sd_forge_presets_modal_scopes .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45em;
+}
+
+#sd_forge_presets_modal_scopes .wrap > label {
+    white-space: nowrap;
+    border-radius: 0.5em !important;
+    padding: 0.35em 0.7em !important;
+    border: 1px solid var(--border-color-primary) !important;
+    background: var(--background-fill-secondary);
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+#sd_forge_presets_modal_scopes .wrap > label:has(input:checked) {
+    border-color: var(--color-accent) !important;
+    background: var(--background-fill-primary);
+}
+
+#sd_forge_presets_modal_actions {
+    gap: 0.75em;
+    margin-top: 0.25em;
+}
+
+#sd_forge_presets_modal_actions > button {
+    border-radius: 0.5em !important;
+    min-height: 2.4em;
+    font-weight: 600;
+}
